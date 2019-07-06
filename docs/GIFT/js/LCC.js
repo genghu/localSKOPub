@@ -65,7 +65,7 @@ function LCCActivityObject(Key,Question,Input){
 function LCCVerbObject(){
 	var verb = "Answered"
 	var varbObj = {
-			id: "http://myProfile.com/"+verb,
+			id: "https://myProfile.com/"+verb,
 			display:{"en-US":verb}
 		}
 	return varbObj;

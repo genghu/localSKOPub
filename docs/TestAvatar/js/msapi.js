@@ -1,6 +1,6 @@
-var animateBase = "http://34.200.235.204/app/animate.jpeg";
-var rivescriptBase = "http://34.200.235.204/app/rivescript";
-var chatscriptBase = "http://34.200.235.204/app/chatscript";
+var animateBase = "https://34.200.235.204/app/animate.jpeg";
+var rivescriptBase = "https://34.200.235.204/app/rivescript";
+var chatscriptBase = "https://34.200.235.204/app/chatscript";
 var chars = {}; // indexed by id
 var o = {};	
 
@@ -339,11 +339,11 @@ function LoadChara(id,character,format,voice){
 
 function loadLRS(alrsL){
 	if (alrsL=="alttaiCCNU"){
-		LRSURL=qs("lrs","http://ccnu.x-in-y.com/data/xAPI");
+		LRSURL=qs("lrs","https://ccnu.x-in-y.com/data/xAPI");
 		LRSLogin=qs("lrslogin","94f907221d68e107ea69c709d43e2094f39e948f");
 		LRSPassword=qs("lrspassword","aebdc3fdc190eee683040df157b10e2d8d2752a4"); 
 	}else if (alrsL=="alttaiLECC"){
-		LRSURL=qs("lrs","http://47.96.129.133/data/xAPI/");
+		LRSURL=qs("lrs","https://47.96.129.133/data/xAPI/");
 		LRSLogin=qs("lrslogin","1577fd4655971901ce2c8ca1b05a6729f6bec679");
 		LRSPassword=qs("lrspassword","1aec59fc6d308399e63e679ad913a39514ff63bd"); 
 	}else if (alrsL=="soartech"){
@@ -351,7 +351,7 @@ function loadLRS(alrsL){
 		LRSLogin=qs("lrslogin","72f5823c8f59c9d5e2e52703f07dd586da6d1055");
 		LRSPassword=qs("lrspassword","adcd3237997cc46f6569958d9d079b4a309d174c"); 
 	}else if ((alrsL=="iis")||(HomePage.indexOf("et")>0)){
-		LRSURL=qs("lrs","http://tokyo.x-in-y.com/data/xAPI/");
+		LRSURL=qs("lrs","https://tokyo.x-in-y.com/data/xAPI/");
 		LRSLogin=qs("lrslogin","7de555f2a64d85addeb9483a0d4e55af2ba1c447");
 		LRSPassword=qs("lrspassword","458fc929552d774648a25b2acfc5e15347e77bb8"); 
 	}else{

@@ -60,7 +60,7 @@
 	    flashvars.BURLA = qs("BURLA",window.location.href);
 	    flashvars.BURLP = qs("BURLP",baseurl+"/ATL.html");
 		
-	    var CBurl = "http://"+window.location.host+"/";
+	    var CBurl = "https://"+window.location.host+"/";
 	    flashvars.CBSever=qs("CBserver",CBurl);
 		
 		flashvars.MediaBase = qs("MediaBase","https://cs.gifttutoring.org/img/"); 

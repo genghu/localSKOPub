@@ -88,7 +88,7 @@ package com.dsspp
 			
 			var dataObject:Object = new Object();
 			dataObject.json = jsonText;
-		//	var url:String = "http://www.dsspp.com/base";
+		//	var url:String = "https://www.dsspp.com/base";
 			var url:String = FlexGlobals.topLevelApplication.parameters.DSSPP+"/base"; // 
 			var request:URLRequest = new URLRequest(url);
 			var requestVars:URLVariables = new URLVariables();

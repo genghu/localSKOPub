@@ -40,8 +40,8 @@
 		flashvars.AvatarList = qs("AvatarList","DEFAULT");
 		
 		flashvars.MediaBase = qs("MediaBase","/1024768/"); 
-        flashvars.BURLP = qs("BURLP","http://sko.skoonline.org/player1024768.html");
-        flashvars.BURLA = qs("BURLA","http://sko.skoonline.org/author1024768.html");  
+        flashvars.BURLP = qs("BURLP","https://sko.skoonline.org/player1024768.html");
+        flashvars.BURLA = qs("BURLA","https://sko.skoonline.org/author1024768.html");  
 		
         flashvars.ASAT = qs("ASAT","0");
 	    flashvars.CA = qs("CA","0");
@@ -66,7 +66,7 @@
 		
 		flashvars.dobackup=qs("dobackup","0"); 
 		
-	    var CBurl = "http://"+window.location.host+"/";
+	    var CBurl = "https://"+window.location.host+"/";
 	    flashvars.CBSever=qs("CBserver",CBurl);
 		
 		flashvars.GMPR = qs("GMPR","0");
@@ -82,7 +82,7 @@
 	    flashvars.regexp = qs("regexp","0");
 	    flashvars.exportscripts = qs("es","0");
 	    flashvars.OGUID = qs("oguid","1");
-	    flashvars.RetrieveOld = qs("rourl","http://sko.skoonline.org/retrieve");
+	    flashvars.RetrieveOld = qs("rourl","https://sko.skoonline.org/retrieve");
 	    flashvars.localFile = qs("LF","ASAT");  
 		flashvars.LoadLocal = qs("ll","0");
 		flashvars.ASAT = qs("ASAT","0");
@@ -93,7 +93,7 @@
 	    flashvars.ASATRigidPacks = qs("asatRP","0");       
 	    flashvars.ASATTutoringPacks = qs("asatTP","1");  
 	    flashvars.ASATRules = qs("asatRL","0");
-	    flashvars.helpLocation = qs("helpLo","http://help.skoonline.org/en/");
+	    flashvars.helpLocation = qs("helpLo","https://help.skoonline.org/en/");
 	    flashvars.SL = qs("SL","0"); //save logs
 	    flashvars.contentAnalysis=qs("ca","0"); // 1 means it will be cantent analysis
 		
@@ -126,11 +126,11 @@
         flashvars.SampleSTBGUID = qs("SSTBguid","");
         flashvars.SampleASATGUID = qs("SASATguid","03758088-682c-49a6-9135-de7380b1a43d");
 		
-	    flashvars.saveP = qs("saveP","0"); // Save load profile		flashvars.html5PlayURL = qs("H5Url","http://autotutor.x-in-y.com/AT/index.html?SIHD=1");
+	    flashvars.saveP = qs("saveP","0"); // Save load profile		flashvars.html5PlayURL = qs("H5Url","https://autotutor.x-in-y.com/AT/index.html?SIHD=1");
 		flashvars.SeverCTrY = qs("H5SC","USA");
 		flashvars.html5Start = qs("H5ST","ASATPageIMG");
 		
-		flashvars.TestAvtarURL= qs("TAURL","http://autotutor.x-in-y.com/AT/Test.html");
+		flashvars.TestAvtarURL= qs("TAURL","https://autotutor.x-in-y.com/AT/Test.html");
 		
             var params = {};
             params.quality = "high";

@@ -40,8 +40,8 @@
 		flashvars.AvatarList = qs("AvatarList","DEFAULT");
 		flashvars.MediaBase = qs("MediaBase","/1024768/"); 
 		
-        flashvars.BURLP = qs("BURLP","http://sko.skoonline.org/player1024768.html");
-        flashvars.BURLA = qs("BURLA","http://sko.skoonline.org/author1024768.html");  
+        flashvars.BURLP = qs("BURLP","https://sko.skoonline.org/player1024768.html");
+        flashvars.BURLA = qs("BURLA","https://sko.skoonline.org/author1024768.html");  
 		
         flashvars.ASAT = qs("ASAT","1");
 	    flashvars.CA = qs("CA","0");
@@ -67,7 +67,7 @@
 		
 		flashvars.dobackup=qs("dobackup","1");
 		
-	    var CBurl = "http://"+window.location.host+"/";
+	    var CBurl = "https://"+window.location.host+"/";
 	    flashvars.CBSever=qs("CBserver",CBurl);
 		
 		flashvars.GMPR = qs("GMPR","0");
@@ -92,7 +92,7 @@
 	    flashvars.ASATRigidPacks = qs("asatRP","1");       
 	    flashvars.ASATTutoringPacks = qs("asatTP","1");  
 	    flashvars.ASATRules = qs("asatRL","1");
-	    flashvars.helpLocation = qs("helpLo","http://cs.gifttutoring.org/help/en/");
+	    flashvars.helpLocation = qs("helpLo","https://cs.gifttutoring.org/help/en/");
 		flashvars.HelpEXT = qs("HelpEXT","htm");
 	    flashvars.SL = qs("SL","0"); //save logs
 	    flashvars.contentAnalysis=qs("ca","0"); // 1 means it will be cantent analysis

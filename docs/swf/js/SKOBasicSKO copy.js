@@ -58,10 +58,10 @@
 	    baseurl = baseurl.substr(0, index-1);
 	    flashvars.serverbaseURL = qs("BURL",baseurl);	
 	        
-	    var CBurl = "http://"+window.location.host+"/";
+	    var CBurl = "https://"+window.location.host+"/";
 	    flashvars.CBSever=qs("CBserver",CBurl);
 	  
-	   flashvars.ATWS=qs("atws","http://141.225.42.101/atws4/service1.asmx?WSDL");
+	   flashvars.ATWS=qs("atws","https://141.225.42.101/atws4/service1.asmx?WSDL");
 	    
             flashvars.NoWait=qs("NW","1");
             flashvars.LaunchNew=qs("LN","1");
@@ -80,7 +80,7 @@
             flashvars.AuthorName=qs("dt","Development Team");
             flashvars.AuthorEmail=qs("AE","S.K.O. Online");
             flashvars.PUBLISH=qs("pub","");
-            flashvars.URL=qs("hurl","http://www.skoonline.org");
+            flashvars.URL=qs("hurl","https://www.skoonline.org");
             flashvars.BKIMG=qs("BK",""); 
             
          
@@ -95,7 +95,7 @@
             flashvars.MN="10";
             flashvars.SM="FA";
 	        flashvars.TargetMS="0.3";
-            flashvars.spp="http://semantic-spaces.appspot.com/stringquery3?";
+            flashvars.spp="https://semantic-spaces.appspot.com/stringquery3?";
             flashvars.randomFeedback="";
             
             var params = {};

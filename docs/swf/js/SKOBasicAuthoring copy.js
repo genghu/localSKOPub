@@ -59,7 +59,7 @@
 	    baseurl = baseurl.substr(0, index-1);
 	    flashvars.serverbaseURL = qs("BURL",baseurl);	
 	        
-	    var CBurl = "http://"+window.location.host+"/";
+	    var CBurl = "https://"+window.location.host+"/";
 	    flashvars.CBSever=qs("CBserver",CBurl);
 	  
 	    
@@ -78,7 +78,7 @@
 	    flashvars.regexp = qs("regexp","0");
 	    flashvars.exportscripts = qs("es","0");
 	    flashvars.OGUID = qs("oguid","");
-	    flashvars.RetrieveOld = qs("rourl","http://skodev2010.appspot.com/retrieve");
+	    flashvars.RetrieveOld = qs("rourl","https://skodev2010.appspot.com/retrieve");
 	    flashvars.localFile = qs("LF","ASAT");    
 	        
 	    flashvars.LoadLocal = qs("ll","0");
@@ -109,7 +109,7 @@
             
 	     // Multilanguage version only
 	    
-            flashvars.chn =qs("chn","http://www.x-in-y.com/ItemTypes/chn.xml");
+            flashvars.chn =qs("chn","https://www.x-in-y.com/ItemTypes/chn.xml");
             flashvars.lang=qs("lang","");
 	    
 	     // Multilanguage version only

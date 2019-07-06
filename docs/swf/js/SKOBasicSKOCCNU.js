@@ -19,14 +19,14 @@
 	    	var index = baseurl.indexOf("ATL.html");
 	    	baseurl = baseurl.substr(0, index-1);
 	   	    flashvars.serverbaseURL = qs("BURL",baseurl);
-	    	var CBurl = "http://"+window.location.host+"/";
+	    	var CBurl = "https://"+window.location.host+"/";
 	    	flashvars.CBSever=qs("CBserver",CBurl);
 			
-            flashvars.ATWS=qs("atws","http://141.225.42.101/atws4/service1.asmx?WSDL");
-            flashvars.ACEWebAPI=qs("ACEWebAPI","http://prod.x-in-y.com/aceapicors8/api/aceex");
+            flashvars.ATWS=qs("atws","https://141.225.42.101/atws4/service1.asmx?WSDL");
+            flashvars.ACEWebAPI=qs("ACEWebAPI","https://prod.x-in-y.com/aceapicors8/api/aceex");
             flashvars.ShowDH = qs("ShowDH","0");   
-           	flashvars.skoserver = qs("skoserver","http://ccnu.x-in-y.com:8889");  
-            flashvars.DSSPP = qs("DSSPP","http://ccnu.x-in-y.com:8889");
+           	flashvars.skoserver = qs("skoserver","https://ccnu.x-in-y.com:8889");  
+            flashvars.DSSPP = qs("DSSPP","https://ccnu.x-in-y.com:8889");
 	        flashvars.PRC=qs("PRC","1");
             flashvars.Review_Btn=qs("Review_Btn","0");
             flashvars.NoWait=qs("NW","1");
@@ -57,7 +57,7 @@
             flashvars.AuthorName=qs("dt","Development Team");
             flashvars.AuthorEmail=qs("AE","S.K.O. Online");
             flashvars.PUBLISH=qs("pub","");
-            flashvars.URL=qs("hurl","http://www.skoonline.org");
+            flashvars.URL=qs("hurl","https://www.skoonline.org");
             flashvars.BKIMG=qs("BK",""); 
             flashvars.ONRDemo=qs("ONRDemo","1");
             flashvars.SL = qs("SL","0");
@@ -70,14 +70,14 @@
             flashvars.LRSURL = qs("LRSURL","https://lrs.adlnet.gov/xAPI/");   
 	    	flashvars.LRSAdmin = qs("LRSAdmin","SKOAdmin");   
 	    	flashvars.LRSPassword = qs("LRSPassword","password"); 
-	    	 flashvars.BURLP = qs("BURLP","http://www.auto-tutor.com/1024768/general/ATL.html");
-            flashvars.BURLA = qs("BURLA","http://www.auto-tutor.com/1024768/general/author.html");  
+	    	 flashvars.BURLP = qs("BURLP","https://www.auto-tutor.com/1024768/general/ATL.html");
+            flashvars.BURLA = qs("BURLA","https://www.auto-tutor.com/1024768/general/author.html");  
 	    	
 
-            flashvars.PlayerUrl = qs("PlayerUrl","http://www.auto-tutor.com/1024768/general/ATL.html");
-            flashvars.EditorUrl = qs("EditorUrl","http://www.auto-tutor.com/1024768/general/author.html");  
+            flashvars.PlayerUrl = qs("PlayerUrl","https://www.auto-tutor.com/1024768/general/ATL.html");
+            flashvars.EditorUrl = qs("EditorUrl","https://www.auto-tutor.com/1024768/general/author.html");  
 	    	
-	    	flashvars.LoginPoint = qs("LoginPoint","http://ccnu.x-in-y.com:8889/myScripts.jsp");  
+	    	flashvars.LoginPoint = qs("LoginPoint","https://ccnu.x-in-y.com:8889/myScripts.jsp");  
             
             flashvars.TalkingHeadOnly=qs("THO","0"); // Talkinghead only if value = 1;
             flashvars.avatarlocationchange=qs("ALC","0"); // change location if value is 1
@@ -92,7 +92,7 @@
             flashvars.MN="10";
             flashvars.SM="FA";
 	        flashvars.TargetMS="0.3";
-            flashvars.spp="http://semantic-spaces.appspot.com/stringquery3?";
+            flashvars.spp="https://semantic-spaces.appspot.com/stringquery3?";
             flashvars.randomFeedback="";
             
             flashvars.pv=qs("pv","0");  //pv=1 means published version

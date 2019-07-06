@@ -38,7 +38,7 @@ function MyExtObj(ParentObjInfor,GroupObjInfo,CategoryInfo,OtherObjInfor){
 	ParentObj.definition={};
 	ParentObj.definition.extensions=ParentObjInforStr;
 	contextActivitiesObj.parent=[ParentObj];
-	Obj.extensions = {"http://autotutor&46;x-in-y&46;com/AT" : ParentObjInfor};
+	Obj.extensions = {"https://autotutor&46;x-in-y&46;com/AT" : ParentObjInfor};
 
 	var GroupingObj={};
 	GroupingObj.objectType="Activity";
@@ -92,7 +92,7 @@ function DoSearch(Statement){
 			displayDebugging('#DebuggingArea',JSON.stringify(ret.statements[i].object));
 			displayDebugging('#DebuggingArea',JSON.stringify(ret.statements[i].result));
 			displayDebugging('#DebuggingArea',JSON.stringify(ret.statements[i].result.response));
-			displayDebugging('#DebuggingArea',JSON.stringify(ret.statements[i].context.contextActivities.parent[0].definition.extensions["http://autotutor.x-in-y.com/AT"].timeTaken));
+			displayDebugging('#DebuggingArea',JSON.stringify(ret.statements[i].context.contextActivities.parent[0].definition.extensions["https://autotutor.x-in-y.com/AT"].timeTaken));
 			displayDebugging('#DebuggingArea',"++++++++++");
 		  }
 		  return;
@@ -336,7 +336,7 @@ function composeViewHintsStatement(Question,Answer,StartTime,Duration){
 	TutorEmail=SKOGuid+"@"+SchoolName;
 
 	var ObjectObj={};
-	ObjectObj.id= "http://"+SchoolName+"/ with guid "+SKOGuid;
+	ObjectObj.id= "https://"+SchoolName+"/ with guid "+SKOGuid;
     ObjectObj.definition={
       "name": { "en-US":SKOTitle+": PnQ: "+Question}
     }

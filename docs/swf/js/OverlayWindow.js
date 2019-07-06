@@ -1,7 +1,7 @@
 (function (namespace, undefined) {
 	"use strict";
 	var HAS_OVERLAY = false,
-		DEFAULT_PAGE = "http://www.w3schools.com",
+		DEFAULT_PAGE = "https://www.w3schools.com",
 		OVERLAY_NAME = "overlay",
 		OVERLAY_CONTENT_NAME = 'overlay_content_frame';
 

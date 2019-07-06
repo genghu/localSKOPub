@@ -1,7 +1,7 @@
 /* Flex Level Popup Menu v1.0
 * Created: Dec 27th, 2009 by DynamicDrive.com. This notice must stay intact for usage 
-* Author: Dynamic Drive at http://www.dynamicdrive.com/
-* Visit http://www.dynamicdrive.com/ for full source code
+* Author: Dynamic Drive at https://www.dynamicdrive.com/
+* Visit https://www.dynamicdrive.com/ for full source code
 */
 
 //Version 1.1 (March 5th, 2010): Each flex menu (UL) can now be associated with a link dynamically, and/or defined using JavaScript instead of as markup.

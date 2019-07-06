@@ -49,8 +49,8 @@
 	    baseurl = baseurl.substr(0, index-1);
 	    flashvars.serverbaseURL = qs("BURL",baseurl);	
 	    
-	    flashvars.BURLA = qs("BURLA","http://sko.skoonline.org/author.html");
-	    flashvars.BURLP = qs("BURLP","http://sko.skoonline.org/player.html");
+	    flashvars.BURLA = qs("BURLA","https://sko.skoonline.org/author.html");
+	    flashvars.BURLP = qs("BURLP","https://sko.skoonline.org/player.html");
 	    
 		flashvars.TeacherBKG=qs("TeacherBKG","");
         flashvars.StudentBKG=qs("StudentBKG","");
@@ -58,15 +58,15 @@
 		
 		flashvars.AvatarList = qs("AvatarList","DEFAULT");
 	        
-	    var CBurl = "http://"+window.location.host+"/";
+	    var CBurl = "https://"+window.location.host+"/";
 	    flashvars.CBSever=qs("CBserver",CBurl);
             
             flashvars.NoAssessment=qs("NoAss","0");
             flashvars.SWA=qs("SWA","0");
 	  
-			flashvars.ATWS=qs("atws","http://141.225.42.101/atws4/service1.asmx?WSDL");
+			flashvars.ATWS=qs("atws","https://141.225.42.101/atws4/service1.asmx?WSDL");
 	   
-            flashvars.ACEWebAPI=qs("ACEWebAPI","http://prod.x-in-y.com/aceapicors8/api/aceex");
+            flashvars.ACEWebAPI=qs("ACEWebAPI","https://prod.x-in-y.com/aceapicors8/api/aceex");
 			
 			flashvars.ShowDH = qs("ShowDH","0"); 
 	    
@@ -88,7 +88,7 @@
             flashvars.AuthorName=qs("dt","Development Team");
             flashvars.AuthorEmail=qs("AE","S.K.O. Online");
             flashvars.PUBLISH=qs("pub","");
-            flashvars.URL=qs("hurl","http://www.skoonline.org");
+            flashvars.URL=qs("hurl","https://www.skoonline.org");
             flashvars.BKIMG=qs("BK",""); 
             flashvars.ATLCCShow=qs("ATLCCShow","0");
             flashvars.ONRDemo=qs("ONRDemo","0");
@@ -97,15 +97,15 @@
             flashvars.xAPI = qs("xAPI","0");
 
             flashvars.ReportParam = qs("ReportParam","0");
-            flashvars.LoginPoint = qs("LoginPoint","http://sko.skoonline.org/player.html");
+            flashvars.LoginPoint = qs("LoginPoint","https://sko.skoonline.org/player.html");
 
 
             flashvars.LRSURL = qs("LRSURL","https://lrs.adlnet.gov/xAPI/");   
             flashvars.LRSAdmin = qs("LRSAdmin","SKOAdmin");   
 	        flashvars.LRSPassword = qs("LRSPassword","password");   
 	    
-           flashvars.PlayerUrl = qs("PlayerUrl","http://sko.skoonline.org/player.html");
-           flashvars.EditorUrl = qs("EditorUrl","http://sko.skoonline.org/author.html");
+           flashvars.PlayerUrl = qs("PlayerUrl","https://sko.skoonline.org/player.html");
+           flashvars.EditorUrl = qs("EditorUrl","https://sko.skoonline.org/author.html");
          
             
             flashvars.TalkingHeadOnly=qs("THO","0"); // Talkinghead only if value = 1;
@@ -118,13 +118,13 @@
             flashvars.MN="10";
             flashvars.SM="FA";
 	        flashvars.TargetMS="0.3";
-            flashvars.spp="http://semantic-spaces.appspot.com/stringquery3?";
+            flashvars.spp="https://semantic-spaces.appspot.com/stringquery3?";
             flashvars.randomFeedback="";
             
             		 
 	    flashvars.username = qs("username","Keith");  
-		 flashvars.skoserver = qs("skoserver","http://sko.skoonline.org");  
-            flashvars.DSSPP = qs("DSSPP","http://dsspp.skoonline.org");
+		 flashvars.skoserver = qs("skoserver","https://sko.skoonline.org");  
+            flashvars.DSSPP = qs("DSSPP","https://dsspp.skoonline.org");
 			
 			 flashvars.AllowStop = qs("AllowStop","1"); // Allow Student Stop automatical play mode
             

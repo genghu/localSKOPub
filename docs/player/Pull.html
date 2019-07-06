@@ -40,7 +40,7 @@ setupConfig = function(err, launchdata, xAPIWrapper) {
     } else {
       wrapper = ADL.XAPIWrapper;
       wrapper.changeConfig({
-        endpoint: "http://tokyo.x-in-y.com/data/xAPI/",
+        endpoint: "https://tokyo.x-in-y.com/data/xAPI/",
         user: 'd1d2dcf69c2cdc335aa582a4506cdeea9844e2f5',        password: '1c793683ea1c91b62b71fab3849524493f30b6e1'
       });
       log("--- content statically configured ---\n" + JSON.stringify(wrapper));

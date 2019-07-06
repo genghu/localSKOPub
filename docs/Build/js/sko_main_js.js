@@ -18,7 +18,7 @@ function main(){
                                     {"type":"tutoring_button"},
                                     {"type":"tutoring_point"},
                                     {"type":"text", "content":"  "},
-                                    {"type":"tutoring_link", "content":{"link_name":"Can you go to google?", "link_address":"http://google.com"}},
+                                    {"type":"tutoring_link", "content":{"link_name":"Can you go to google?", "link_address":"https://google.com"}},
                                     {"type":"text", "content":"The Tutoring Group Ends Here.<br><br>"}],
                         "concept":"simple-sko",
                         "SKO_names" : ["af32dc0c-bfa3-40b2-af4a-2e96955cb236"], //309810bd-94c9-4d70-94de-c2812475b617

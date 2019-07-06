@@ -15,12 +15,12 @@ if (Location=="China")
 	
 	var UserStudent=qs("UserStudent","小明");
 	var SKOGuid=qs("guid","50ed8af1-3fd1-4ca2-ab1d-3b5cc97fbfbf");
-	var SKOSchool=qs("school","http://ccnu.x-in-y.com:8889");
+	var SKOSchool=qs("school","https://ccnu.x-in-y.com:8889");
 	var MediaBase=qs("MediaBase","https://xiangenhu.github.io/ATMedia/IMG/CAT/")
 }else{
 	var UserStudent=qs("UserStudent","Carl");
 	var SKOGuid=qs("guid","df365267-1fc9-485b-8918-fb926757369c");
-	var SKOSchool=qs("school","http://class.skoonline.org");
+	var SKOSchool=qs("school","https://class.skoonline.org");
 	var MediaBase=qs("MediaBase","https://xiangenhu.github.io/ATMedia/IMG/StatsTutorDemo_ANOVAIntro_ID/")
 }
 
@@ -53,7 +53,7 @@ var MediaHight=qs("MW","300");
 var SHUP=qs("SHUP","0");
 var SHRT=qs("SHRT","0");
 /* 
-var LRSURL=qs("lrs","http://47.96.129.133/data/xAPI/");
+var LRSURL=qs("lrs","https://47.96.129.133/data/xAPI/");
 var LRSLogin=qs("lrslogin","1a15b02a5f56a88379dd8bdf835ac94f35ed1238");
 var LRSPassword=qs("lrspassword","aa3da869a880ba09c489f96db2792047303be341");   */
 
@@ -94,7 +94,7 @@ var SiteHome=qs("SiteHome","AutoTutor");
 
 var TutorEmail=decodeURIComponent(qs("TutorEmail","autotutor@memphis.edu"));
 
-var HomePage=decodeURIComponent(qs("HomePage","http://et.x-in-y.com"));
+var HomePage=decodeURIComponent(qs("HomePage","https://et.x-in-y.com"));
 
 // ASAT Only
 var ActiveQuestion;
@@ -104,7 +104,7 @@ var ActiveQuestion;
 
 var IDtoACE=Auser;
 var IntitalText = qs("iniText","No idea");
-var aceurl=qs("aceurl","http://ace.autotutor.org/aceapi2017/api/aceaction");
+var aceurl=qs("aceurl","https://ace.autotutor.org/aceapi2017/api/aceaction");
 var startingIndex=parseInt(qs("STI","0"));
 
 var STARTNow=qs("SNow","1");

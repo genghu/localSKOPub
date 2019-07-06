@@ -1,5 +1,5 @@
 RECEIVE_MESSAGE_URL_RESTRICTION = "*";  
-POST_PARENT_URL_RESTRICTION = "*";          // Will be "http://www.aleks.com"
+POST_PARENT_URL_RESTRICTION = "*";          // Will be "https://www.aleks.com"
 POST_CHILD_URL_RESTRICTION = "*";           // Will be "www.x-in-y.com"
 
 

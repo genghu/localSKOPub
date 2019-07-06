@@ -29,7 +29,7 @@ if (Location=="China")
 
 var SchoolName="class.skoonline.org";
 
-var ATExt="http://autotutor.x-in-y.com/AT";
+var ATExt="https://autotutor.x-in-y.com/AT";
 var LOMExt="https://standards.ieee.org/findstds/standard/";
 var ITProfile="https://umiis.github.io/ITSProfile/";
 
@@ -103,14 +103,14 @@ var SiteHome=qs("SiteHome","AutoTutor");
 
 var TutorEmail=decodeURIComponent(qs("TutorEmail","autotutor@memphis.edu"));
 
-var HomePage=decodeURIComponent(qs("HomePage","http://et.x-in-y.com"));
+var HomePage=decodeURIComponent(qs("HomePage","https://et.x-in-y.com"));
 
 // ASAT Only
 var ActiveQuestion;
 
 var type_of_SKO="ID";
 
-var avatarBKIMG=encodeURIComponent(qs("abkimg","http://autotutor.x-in-y.com/AT/img/BKG.jpeg"));
+var avatarBKIMG=encodeURIComponent(qs("abkimg","https://autotutor.x-in-y.com/AT/img/BKG.jpeg"));
 // var avatarBKIMG=qs("abkimg","img/BackGround");
 var avatarBKColor=qs("abkclr","cccccc");
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- edited with XMLSpy v2008 sp1 (http://www.altova.com) by Xiangen Hu (University of Memphis) -->
-<RTTrialogueRules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="RTTrialogueRules.xsd">
+<!-- edited with XMLSpy v2008 sp1 (https://www.altova.com) by Xiangen Hu (University of Memphis) -->
+<RTTrialogueRules xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="RTTrialogueRules.xsd">
 	<Tutor LastAction="Start">
 		<Student Response="All">
 			<Actions>

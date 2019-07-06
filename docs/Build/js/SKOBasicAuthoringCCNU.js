@@ -64,7 +64,7 @@
 		
 		flashvars.dobackup=qs("dobackup","0"); 
 		
-	    var CBurl = "http://"+window.location.host+"/";
+	    var CBurl = "https://"+window.location.host+"/";
 	    flashvars.CBSever=qs("CBserver",CBurl);
 		
 		flashvars.GMPR = qs("GMPR","0");
@@ -90,7 +90,7 @@
 	    flashvars.ASATRigidPacks = qs("asatRP","1");       
 	    flashvars.ASATTutoringPacks = qs("asatTP","1");  
 	    flashvars.ASATRules = qs("asatRL","1");
-	    flashvars.helpLocation = qs("helpLo","http://help.skoonline.org/en/");
+	    flashvars.helpLocation = qs("helpLo","https://help.skoonline.org/en/");
 	    flashvars.SL = qs("SL","0"); //save logs
 	    flashvars.contentAnalysis=qs("ca","0"); // 1 means it will be cantent analysis
 		
